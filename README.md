@@ -98,4 +98,5 @@ Key references used in this work:
 
 ## 👤 Author
 **Mohamed Eid Mohamed Elkomie**  
-📧 mohamed.elkomie@edu.rptu.de  
+📧 mohamed.elkomie@edu.rptu.de
+[LinkedIn](https://www.linkedin.com/in/mohamed-eid-70a6991a3)
