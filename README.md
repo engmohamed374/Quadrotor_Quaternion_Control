@@ -34,7 +34,7 @@ This project explores **quaternion-based modeling and control** to overcome thes
 - **Coordinate transformations** (body ↔ inertial frame) using quaternion rotation.  
 
 <p align="center">
-  <img src="docs/img/simulink_model.png" width="600" alt="Quadrotor Simulink model"/>
+  <img src="simulink.png" width="600" alt="Quadrotor Simulink model"/>
 </p>
 
 ---
@@ -45,6 +45,10 @@ This project explores **quaternion-based modeling and control** to overcome thes
   - Fast settling time  
   - Minimal overshoot  
   - Respecting actuator constraints  
+
+<p align="center">
+  <img src="P2.png" width="600" alt="Quadrotor Simulink model"/>
+</p>
 
 Typical settling times:  
 - Roll ≈ **1.0 s**  
@@ -68,7 +72,7 @@ Typical settling times:
 
 ### Step Reference Tracking
 <p align="center">
-  <img src="results/step_response.png" width="600" alt="Step response tracking"/>
+  <img src="R_P_Y.png" width="600" alt="Step response tracking"/>
 </p>
 
 - Fast convergence in roll, pitch, and yaw.  
@@ -76,7 +80,7 @@ Typical settling times:
 
 ### Sinusoidal Trajectory Tracking
 <p align="center">
-  <img src="results/sinusoidal_tracking.png" width="600" alt="Sinusoidal trajectory tracking"/>
+  <img src="R_P_Y_trajectory.png" width="600" alt="Sinusoidal trajectory tracking"/>
 </p>
 
 - Smooth response with slight phase lag due to damping.  
