@@ -6,7 +6,7 @@ Unlike Euler-angle–based methods, this approach fully exploits quaternion math
 
 ---
 
-## ✨ Features
+## Features
 - **Quaternion-based modeling** of quadrotor translational and rotational dynamics using the Newton–Euler method.  
 - **P2 nonlinear controller** for attitude stabilization and trajectory tracking.  
 - **Singularity-free orientation representation** (no gimbal lock).  
@@ -17,17 +17,17 @@ Unlike Euler-angle–based methods, this approach fully exploits quaternion math
 
 ---
 
-## 🚁 Problem Statement
+## Problem Statement
 Quadrotors are nonlinear, underactuated systems with dynamics that are challenging to model and control.  
 Traditional Euler-angle methods suffer from:
 - **Singularities (gimbal lock)**  
 - **Computational inefficiency** in real-time control  
 
-👉 This project explores **quaternion-based modeling and control** to overcome these issues.
+This project explores **quaternion-based modeling and control** to overcome these issues.
 
 ---
 
-## 📐 System Modeling
+## System Modeling
 - **Translational dynamics** via Newton’s 2nd law.  
 - **Rotational dynamics** via Euler’s rigid-body equations.  
 - **Quaternion kinematics** with left-handed angular velocity convention.  
@@ -39,7 +39,7 @@ Traditional Euler-angle methods suffer from:
 
 ---
 
-## 🎛 Controller Design
+## Controller Design
 - **Nonlinear P2 Controller** (proportional terms on quaternion error and angular velocity).  
 - Gain tuning performed empirically for:
   - Fast settling time  
@@ -53,7 +53,7 @@ Typical settling times:
 
 ---
 
-## 🖥 Simulation Setup
+## Simulation Setup
 - Implemented in **MATLAB/Simulink**.  
 - Simulation step: **0.001 s**, duration: **30 s**.  
 - Quadrotor parameters:  
@@ -64,7 +64,7 @@ Typical settling times:
 
 ---
 
-## 📊 Results
+## Results
 
 ### Step Reference Tracking
 <p align="center">
@@ -87,7 +87,7 @@ Typical settling times:
 
 ---
 
-## 📜 References
+## References
 Key references used in this work:  
 - Fresk & Nikolakopoulos, *Full Quaternion Based Attitude Control for a Quadrotor*, ECC 2013.  
 - Lee, Leok & McClamroch, *Geometric Tracking Control of a Quadrotor UAV on SE(3)*, CDC 2010.  
@@ -96,7 +96,7 @@ Key references used in this work:
 
 ---
 
-## 👤 Author
+## Author
 **Mohamed Eid Mohamed Elkomie**  
-📧 mohamed.elkomie@edu.rptu.de
-[LinkedIn](https://www.linkedin.com/in/mohamed-eid-70a6991a3)
+📧 mohamed.elkomie@edu.rptu.de  
+🔗 [LinkedIn](https://www.linkedin.com/in/mohamed-eid-70a6991a3)  
